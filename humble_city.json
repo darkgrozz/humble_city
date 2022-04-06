@@ -54,7 +54,31 @@
          "draworder":"topdown",
          "id":7,
          "name":"Spawn",
-         "objects":[],
+         "objects":[
+                {
+                 "height":0,
+                 "id":1,
+                 "name":"",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":130,
+                 "y":548
+                }, 
+                {
+                 "height":0,
+                 "id":2,
+                 "name":"",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":263.333333333333,
+                 "y":346.666666666667
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -62,7 +86,7 @@
          "y":0
         }],
  "nextlayerid":9,
- "nextobjectid":1,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.8.2",

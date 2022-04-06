@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="44" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="44" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="3">
+ <editorsettings>
+  <export target="humble_city.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" source="../GatherFloorAndWall.tsx"/>
  <tileset firstgid="21761" source="../Table.tsx"/>
  <tileset firstgid="57761" source="../Kitchen.tsx"/>
@@ -180,5 +183,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="7" name="Spawn">
+  <object id="1" x="130" y="548">
+   <point/>
+  </object>
+  <object id="2" x="263.333" y="346.667">
+   <point/>
+  </object>
+ </objectgroup>
 </map>
